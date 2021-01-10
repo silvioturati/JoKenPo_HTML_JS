@@ -1,0 +1,132 @@
+*{
+  font-family: Helvetica Neue, Helvetica, Arial;
+  font-weight: 400;
+  cursor: default;
+} /* ok */
+
+body{
+  background-color: #f8f8f8;
+} /* ok */
+
+.principal #titulo{
+  font-size: 40px;
+  color: #273c75;
+  text-align: center;
+} /* ok */
+
+.placar{
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: center;
+} /* ok */
+
+.jogador, .computador{
+  position: relative;
+  flex-grow: 1;
+  border-radius: 5px;
+  width: 200px;
+  padding: 20px;
+  color: #fff;
+} /* ok */
+
+.jogador{
+  background-color: #ff7675;
+} /* ok */
+
+.jogador #jogador-nome{
+  text-align: left;
+}  /* ok */
+
+.jogador #jogador-escolha, .computador #computador-escolha{
+  list-style: none;
+  text-align: center;
+  margin: 30px 0 0;
+  padding: 0;
+} /* ok */
+
+.jogador #jogador-escolha li{
+  display: inline;
+  padding: 0 15px;
+} /* ok */
+
+.jogador #jogador-escolha a{
+  opacity: 0.2;
+  padding: 5px;
+} /* ok */
+
+.jogador #jogador-escolha a:hover, .jogador #jogador-escolha a.selecionado{
+  opacity: 1;
+} /* ok */
+
+.jogador #jogador-escolha a.selecionado{
+  opacity: 1;
+} /* ok */
+
+.jogador #jogador-escolha img{
+  max-width: 80px;
+}  /* ok */
+
+.jogador #jogador-pontos{
+  right: 20px;
+}  /* ok */
+
+.versus{
+  width: 200px;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 300px;
+} /* ok */
+
+.computador{
+  background-color: #74b9ff;
+} /* ok */
+
+.computador #computador-escolha li{
+  display: inline;
+  padding: 0 15px;
+} /* ok */
+
+.computador #computador-escolha a{
+  opacity: 0.2;
+  padding: 5px;
+} /* ok */
+
+.computador #computador-escolha a.selecionado{
+  opacity: 1;
+}
+
+.computador #computador-escolha img{
+  max-width: 80px;
+}  /* ok */
+
+.jogador #jogador-pontos, .computador #computador-pontos{
+  position: absolute;
+  font-size: 72px;
+  top: 8px;
+} /* ok */
+
+.computador #computador-nome{
+  text-align: right;
+}  /* ok */
+
+.computador #computador-pontos{
+  left: 20px;
+}  /* ok */
+
+.jogador #jogador-nome, .computador #computador-nome{
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+}  /* ok */
+
+.mensagens{
+  border-radius: 5px;
+  background-color: #7f8fa6;
+  font-size: 24px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 50px;
+  padding: 20px;
+}
